@@ -1,0 +1,7 @@
+applications:
+ - name: pas-bmspringboot-demo
+   memory: 512M
+   instances: 1
+   path: ./target/demo-0.0.1-SNAPSHOT.jar
+   host: pas-bmspringboot-demo
+   domain: mybluemix.net
