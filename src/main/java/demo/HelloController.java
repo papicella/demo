@@ -10,7 +10,6 @@ public class HelloController
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String sayHello ()
     {
-        // test from apples
         return "hello to you on " + new java.util.Date();
     }
 }
