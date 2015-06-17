@@ -7,6 +7,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController
 {
+    /*
+     * Method to show todays date
+     */
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String sayHello ()
     {
